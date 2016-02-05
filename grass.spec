@@ -35,6 +35,7 @@ Requires:       geos >= 3
 Requires:       netcdf
 Requires:       python >= 2.6
 Requires:       wxPython >= 2.8
+Requires:       numpy
 
 BuildRequires: rpm-build
 BuildRequires: make
