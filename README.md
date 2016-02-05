@@ -6,6 +6,6 @@ SPEC file that builds GRASS GIS 7.0.3 rpm package for Centos 6
 ## Requirements
 Building and installing GRASS GIS requires enabled EPEL-repository
 
-  yum install -y epel-release
+    yum install -y epel-release
 
 Also required gdal-1.11 package not available on centos6. You may take in from [github](https://github.com/fedorpatlin/gdal-rpm)
