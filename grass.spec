@@ -82,11 +82,11 @@ BuildRequires: gettext
 Summary:        Documentation for GRASS GIS 7
 Group:          Applications/Engineering
 Requires:       %{name} = %{version}
+Requires:       man
 
 %package devel
 Summary:        Development files for GRASS GIS 7
 Group:          Development/Libraries
-Requires:       %{name} = %{version}
 
 %description
 GRASS (Geographic Resources Analysis Support System), commonly
